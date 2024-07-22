@@ -1,0 +1,106 @@
+/*Reset*/
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*strumenti */
+
+.flex {
+
+    display: flex;
+}
+
+.container {
+
+    margin: 0 auto;
+
+    max-width: 1200px;
+    /*rivedi , intanto tieni come bozza*/
+
+}
+
+
+header {
+
+
+    height: 80px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*inizia con analisi 
+
+seganti tutti gli strumenti che ti servonoi e di colori 
+
+abbozza uno schema 
+
+
+inizia ad impostare il layout
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
