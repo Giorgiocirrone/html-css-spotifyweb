@@ -40,7 +40,7 @@ body {
 .top-content {
 
 
-    background-color: red;
+
 
     height: calc(100vh-100px);
 
@@ -120,11 +120,13 @@ footer {
 }
 
 
-ul {
+.under-header ul {
 
     display: flex;
     list-style-type: none;
     gap: 30px;
+
+    font-size: 0.8rem;
 
 }
 
@@ -148,11 +150,46 @@ a {
     font-size: 14px;
 }
 
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 20px;
 
 
 
 
+}
 
+.Playlist ul {
+
+    color: white;
+    margin-left: 48px;
+    list-style-type: none;
+    margin-top: 23px;
+    row-gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.Playlist {
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+img {
+
+    max-width: 100%;
+
+}
 
 
 
