@@ -36,23 +36,52 @@
 
 
     background-color: red;
+
     height: calc(100vh-100px);
-    /*altrimenti le altezze si sommano */
 
     overflow-y: auto;
+    display: flex;
+}
+
+.side-bar {
+    background-color: blue;
+    flex-basis: 50px;
+    /*vogliamo che la misura sia fissa */
+    flex-shrink: 0;
+
 }
 
 
 
+main {
+
+    background-color: rgb(205, 127, 31);
+    flex-grow: 1;
+    overflow: auto;
+
+
+}
 
 
 footer {
+
+
 
     background-color: yellow;
     height: 100px;
 }
 
 
+
+
+@media screen and (min-width:576px) {
+
+    .side-bar {
+
+        flex-basis: 250px;
+    }
+
+}
 
 
 
@@ -81,7 +110,14 @@ inizia ad impostare il layout
 
 
 
-appunto lezione , se metto 100 lorem ipsum non vengono contenuti , usa overflow vertical e
+appunto lezione , se metto 100 lorem ipsum non vengono contenuti , usa overflow verticale
+
+
+con il column nel flex-wrapper esercizio , nel footer metti flexbasis 
+
+
+
+con questa soluzione però il cordice corre il rischio di sballarsi tutto 
 
 
 
@@ -90,22 +126,33 @@ appunto lezione , se metto 100 lorem ipsum non vengono contenuti , usa overflow 
 
 
 
+.top-content {
+
+
+    background-color: red;
+    flex-grow: 1;/*se non metti un altezza non funziona */
+
+/*con questa soluzione il footer ha 100 e il topo content tutto meno 100 ma signfica cresci quanto vuoiquindi metti il shrink*/
+
+/*altrimenti le altezze si sommano */
+
+/* overflow-y: auto;
+}
+
+
+.container-flex{
+    
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 
 
 
 
+footer {
 
+    flex-shrink: 0;
 
-
-
-
-
-
-
-
-
-
-
-
-
-*/
+    background-color: yellow;
+    flex-basis: 100px; /*cambia l'asse principale */
