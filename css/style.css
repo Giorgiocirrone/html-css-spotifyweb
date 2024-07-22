@@ -24,6 +24,11 @@
 
 }
 
+body {
+
+
+    font-family: sans-serif;
+}
 
 /*impostazione layout  principale*/
 
@@ -109,6 +114,8 @@ footer {
 
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 45px;
 
 }
 
@@ -131,11 +138,20 @@ a {
 
 .upgrade {
 
-    height: 20px;
-    width: 80 px;
-
+    height: 42px;
     color: white;
-    border: 1px solid white;
+    border: 2px solid white;
+    border-radius: 20px;
+    flex-basis: 206px;
+    padding: 13px 11px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+
 }
 
 
