@@ -25,31 +25,32 @@
 }
 
 
-header {
-
-
-    height: 80px;
+/*impostazione layout  principale*/
 
 
 
+/*fase uno dobbiamo impostare il top-content e il footer*/
+
+
+.top-content {
+
+
+    background-color: red;
+    height: calc(100vh-100px);
+    /*altrimenti le altezze si sommano */
+
+    overflow-y: auto;
 }
 
 
 
 
 
+footer {
 
-
-
-
-
-
-
-
-
-
-
-
+    background-color: yellow;
+    height: 100px;
+}
 
 
 
@@ -77,6 +78,10 @@ abbozza uno schema
 
 
 inizia ad impostare il layout
+
+
+
+appunto lezione , se metto 100 lorem ipsum non vengono contenuti , usa overflow vertical e
 
 
 
