@@ -62,6 +62,23 @@ main {
 
 }
 
+/*questo serve perchè potremmo avere più header*/
+main header {
+
+    height: 80px;
+    background-color: rgba(255, 0, 0, 0.379);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    /*metti sempre le coordiinate */
+
+
+
+
+
+}
+
 
 footer {
 
@@ -119,6 +136,7 @@ con il column nel flex-wrapper esercizio , nel footer metti flexbasis
 
 con questa soluzione però il cordice corre il rischio di sballarsi tutto 
 
+nell'header non fare fixed  o positin relative usa sticky
 
 
 
