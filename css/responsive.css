@@ -1,10 +1,19 @@
 /*mobile-first s*/
 
+@media screen and (min-width:576px) {
 
+    .side-bar {
+
+        flex-basis: 250px;
+    }
+
+}
 
 
 
 /*tablet md*/
+
+@media screen and(min-width:768px) {}
 
 
 
@@ -12,3 +21,15 @@
 
 
 /*desktop lg */
+
+
+
+/*IN MODALITA' TABLET (sopra i 768px)
+MODALITA' DESKTOP (sopra i 992px)
+mobile: dai 576px in giù
+
+
+
+
+
+*/
