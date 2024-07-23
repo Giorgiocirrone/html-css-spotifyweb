@@ -167,7 +167,7 @@ a {
 .Playlist ul {
 
     color: white;
-    margin-left: 48px;
+    padding-left: 20px;
     list-style-type: none;
     margin-top: 23px;
     row-gap: 16px;
@@ -259,6 +259,7 @@ figcaption {
     padding-left: 20px;
 
     padding-bottom: 50px;
+    gap: 20px;
 }
 
 .pop {
@@ -285,6 +286,28 @@ span {
     padding-right: 5px;
     max-width: 20px;
 }
+
+#radius {
+    border-radius: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
