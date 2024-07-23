@@ -7,20 +7,42 @@
         flex-basis: 250px;
     }
 
+    .hunder-header ul {
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
 }
 
 
 
-/*tablet md*/
+/*desktop lg*/
 
-@media screen and(min-width:768px) {}
+@media screen and(min-width:992) {
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .recently-played {
+        flex-wrap: nowrap;
+    }
+
+}
 
 
 
 
 
 
-/*desktop lg */
+/*tablet */
+
+
+
+@media screen (min-width:768px) {}
 
 
 
